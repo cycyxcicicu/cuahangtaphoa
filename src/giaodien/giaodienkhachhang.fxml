@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Giaodienkhachhang">
+   <children>
+      <SplitPane dividerPositions="0.47470039946737674" prefHeight="403.0" prefWidth="602.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Text layoutX="22.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số điện thoại : " />
+                  <Text layoutX="35.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên KH : " />
+                  <TextField layoutX="118.0" layoutY="38.0" />
+                  <TextField layoutX="118.0" layoutY="83.0" />
+                  <Text layoutX="31.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giới tính : " />
+                  <TextField layoutX="118.0" layoutY="128.0" />
+                  <Button layoutX="38.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" text="Thêm" />
+                  <Button layoutX="114.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" text="Sửa" />
+                  <Button layoutX="199.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="54.0" text="Xóa" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

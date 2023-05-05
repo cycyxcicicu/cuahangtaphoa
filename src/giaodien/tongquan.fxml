@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Tongquan">
+   <children>
+      <MenuButton layoutX="7.0" layoutY="29.0" mnemonicParsing="false" text="Mặt hàng">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </MenuButton>
+      <Line endX="100.0" startX="-100.0" />
+      <Line endX="67.29998779296875" endY="394.0928649902344" layoutX="372.0" layoutY="96.0" startX="59.29998779296875" startY="-109.99999237060547" />
+      <TextField layoutX="251.0" layoutY="29.0" />
+      <Text layoutX="200.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="472.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng còn" />
+      <Text layoutX="589.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng bán" />
+      <Text layoutX="695.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhà cung cấp" />
+      <Button layoutX="180.0" layoutY="29.0" mnemonicParsing="false" text="Tìm kiếm" />
+      <Label layoutX="507.0" layoutY="419.0" text="Tổng thu">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="552.0" layoutY="32.0" text="Thông tin">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

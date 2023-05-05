@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="400.0" prefHeight="500.0" prefWidth="400.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button accessibleRole="IMAGE_VIEW" layoutX="322.0" layoutY="29.0" mnemonicParsing="false" textFill="#763d3d" AnchorPane.bottomAnchor="469.6" AnchorPane.leftAnchor="333.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <FontAwesomeIconView glyphName="CLOSE" wrappingWidth="12.850024223327637" />
+               </graphic>
+            </Button>
+            <Label layoutX="148.0" layoutY="188.0" text="Sign In">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+           <FontAwesomeIconView glyphName="USERS" layoutX="149.0" layoutY="164.0" size="8em" />
+            <TextField layoutX="90.0" layoutY="281.0" prefHeight="28.0" prefWidth="220.0" promptText="Ussername">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="90.0" layoutY="319.0" prefHeight="28.0" prefWidth="220.0" promptText="Password">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="173.0" layoutY="410.0" mnemonicParsing="false" text="Login" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="500.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>
