@@ -35,10 +35,10 @@
                   <TableView prefHeight="392.0" prefWidth="321.0" AnchorPane.bottomAnchor="6.399999999999977" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-0.8000000000000114" AnchorPane.topAnchor="0.0">
                     <columns>
                       <TableColumn prefWidth="87.20001524686813" text="mã nhân viên" />
-                      <TableColumn prefWidth="63.199951171875" text="Họ và tên" />
-                        <TableColumn prefWidth="100.0" text="Số điện thoại" />
-                        <TableColumn prefWidth="63.19993591308594" text="Giới tính" />
-                        <TableColumn prefWidth="75.0" text="Địa chỉ" />
+                      <TableColumn prefWidth="83.20001220703125" text="Họ và tên" />
+                        <TableColumn prefWidth="94.39994812011719" text="Số điện thoại" />
+                        <TableColumn prefWidth="91.20001220703125" text="Giới tính" />
+                        <TableColumn prefWidth="104.800048828125" text="Địa chỉ" />
                     </columns>
                   </TableView>
                </children></AnchorPane>

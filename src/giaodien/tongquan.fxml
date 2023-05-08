@@ -4,12 +4,13 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
 
 <AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Tongquan">
    <children>
@@ -20,14 +21,12 @@
         </items>
       </MenuButton>
       <Line endX="100.0" startX="-100.0" />
-      <Line endX="67.29998779296875" endY="394.0928649902344" layoutX="372.0" layoutY="96.0" startX="59.29998779296875" startY="-109.99999237060547" />
+      <Line endX="67.29998779296875" endY="394.0928649902344" layoutX="358.0" layoutY="108.0" startX="67.29998779296875" startY="-108.0" />
       <TextField layoutX="251.0" layoutY="29.0" />
       <Text layoutX="200.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" />
-      <Text layoutX="472.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng còn" />
-      <Text layoutX="589.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số lượng bán" />
-      <Text layoutX="695.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhà cung cấp" />
+      <Text layoutX="472.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" />
       <Button layoutX="180.0" layoutY="29.0" mnemonicParsing="false" text="Tìm kiếm" />
-      <Label layoutX="507.0" layoutY="419.0" text="Tổng thu">
+      <Label layoutX="492.0" layoutY="437.0" text="Tổng thu">
          <font>
             <Font size="30.0" />
          </font>
@@ -37,5 +36,12 @@
             <Font size="30.0" />
          </font>
       </Label>
+      <TableView layoutX="426.0" layoutY="79.0" prefHeight="342.0" prefWidth="386.0">
+        <columns>
+          <TableColumn prefWidth="116.79998779296875" text="số lượng còn lại" />
+          <TableColumn prefWidth="128.7999267578125" text="số lượng bán" />
+            <TableColumn minWidth="0.0" prefWidth="140.00003662109373" text="Nhà cung cấp" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
